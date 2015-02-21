@@ -170,7 +170,8 @@ html, body {
     width: 100%;
     padding-left: 36px;
     padding-right: 36px;
-    margin: auto;
+    margin: auto; 
+    background: #d1cfcf;
 }
 
 #testimonialContainer .row {
@@ -264,7 +265,7 @@ hr {
 }
 
 #footerContainer {
-    background: #eee;
+    background: #d1cfcf;
     width: 100%;
     max-width: 1140px;
     line-height: 3em !important;
