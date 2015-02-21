@@ -82,7 +82,7 @@ html, body {
     position: relative;
     top: -100px;
     background: white;
-    border: 1px solid;
+    border: 1px solid #998a8a;
     max-width: 24em;
     max-height: 27em;
 }
@@ -101,16 +101,17 @@ html, body {
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME, #mce-MMERGE3 {
     float: right;
-    border: 1px solid #333;
+    border: 1px solid #998a8a;
 }
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME {
 
-    width: 185px;
+    width: 190px;
 }
 
 .inputDescription {
     padding-top: 4px;
+    padding-bottom: 4px
 
 }
 
@@ -123,7 +124,8 @@ html, body {
     width: 300px;
     position: relative;
     float: none;
-
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
 
 .wrapAsterisk:after {
@@ -131,7 +133,7 @@ html, body {
     position: absolute;
     left: 91.5%;
     content: '\f069';
-    color: #333;
+    color: #998a8a;
     font-size: 50%;
     margin-top: 4px;
 }
@@ -171,7 +173,7 @@ html, body {
     padding-left: 36px;
     padding-right: 36px;
     margin: auto; 
-    background: #d1cfcf;
+    background: #f3efef;
 }
 
 #testimonialContainer .row {
@@ -213,9 +215,8 @@ hr {
     border: 0;
     float: right;
     width: 98.5%;
-    height: 4px;
+    height: 2px;
     background: #d1cfcf;
-    border-radius: 40%;
 }
 
 #testimonialContainer .authors {
@@ -265,7 +266,7 @@ hr {
 }
 
 #footerContainer {
-    background: #d1cfcf;
+    background: #f3efef;
     width: 100%;
     max-width: 1140px;
     line-height: 3em !important;
@@ -315,6 +316,7 @@ responsive SMARTFON
     .jumbotronTitle {
         left: 12px;
         font-size: 150%;
+        font-face: bold;
         margin-top: 0;
         max-width: 300px;
     }
@@ -328,7 +330,7 @@ responsive SMARTFON
         font-size: 140%;
         margin-top: 10px;
     }
-
+    
     #bookContent {
         left: 2px;
     }
@@ -345,7 +347,7 @@ responsive SMARTFON
         margin-top: 0;
         float: left;
         color: white;
-        font-size: 155%;
+        font-size: 110%;
         padding-left: 7px !important;
     }
 
@@ -656,7 +658,7 @@ Responsive 992px width
 
 /*
 
-Repsonsive large
+Responsive large
 
 */
 
