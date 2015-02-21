@@ -1,0 +1,690 @@
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.container {
+    padding: 0;
+}
+
+#authorPicture {
+    padding-right: 0;
+}
+
+.navbar {
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    bottom: 6px;
+    left: 46px;
+    max-height: 3em;
+}
+
+.jumbotron {
+    background-image: url("../assets/LandingPageBannerMockup.png");
+    background-size: 100% 100%;
+    margin: auto;
+    max-height: 241px;
+    max-width: 1140px;
+    position: relative;
+    padding: 9% 0 12.2% 0;
+}
+
+.bannerContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.jumbotronTitle {
+    position: relative;
+    left: 30px;
+}
+
+.jumbotronContent {
+    position: relative;
+    left: 36px;
+    font-size: 1.15em;
+}
+
+#bookContent {
+    position: relative;
+    left: 21px
+}
+
+.bookContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.row {
+    margin: 0;
+}
+
+.bookContainer ul {
+    list-style-type: circle;
+}
+
+.bookContainer .book {
+    padding-top: 5em;
+    padding-left: 2em;
+}
+
+.bookContainer .signUp {
+    position: relative;
+    top: -20px;
+    background: white;
+    border: 3px solid;
+    max-width: 24em;
+    max-height: 27em;
+}
+
+.row .book {
+    text-align: center;
+}
+
+.book img {
+    width: 75%;
+}
+
+.bookContainer .signUp h3 {
+    margin-bottom: 0.8em;
+}
+
+#mce-EMAIL, #mce-LNAME, #mce-FNAME, #mce-MMERGE3 {
+    float: right;
+    border: 2px solid black;
+}
+
+#mce-EMAIL, #mce-LNAME, #mce-FNAME {
+
+    width: 185px;
+}
+
+.inputDescription {
+    padding-top: 4px;
+
+}
+
+.indicates-required {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#mce-MMERGE3 {
+    width: 300px;
+    position: relative;
+    float: none;
+
+}
+
+.wrapAsterisk:after {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 91.5%;
+    content: '\f069';
+    color: #333;
+    font-size: 50%;
+    margin-top: 4px;
+}
+
+#smallAsterisk {
+    font-size:50%;
+    position: relative;
+    top:-3px;
+}
+
+.mc-field-group {
+    padding: 10px 0 0 0;
+}
+
+.signUPbutton {
+    background: url('../assets/Button-NoText.png') no-repeat;
+    background-size: 100% 100%;
+    width: 300px;
+    margin-bottom: 1em;
+    height: 3em;
+    margin-top: 1em;
+    border: 0 !important;
+
+}
+
+.signUPbuttonText {
+    padding-top: 5px;
+    margin-top: 0;
+    float: left;
+    color: white;
+    padding-left: 4px
+}
+
+#testimonialContainer {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: auto;
+}
+
+#testimonialContainer .row {
+    margin-bottom: 0 !important;
+}
+
+#testimonialContainer p {
+    margin-left: 2em;
+}
+
+#testimonialContainer .quote {
+    text-align: left;
+/ / padding-top : 0.5 em;
+}
+
+.testimonialQuote {
+    padding-left: 0;
+}
+
+#testimonialContainer h3 {
+    margin-bottom: 1.2em;
+}
+
+#testimonialContainer .testimonialPicture {
+    padding-left: 0;
+}
+
+#testimonialContainer img {
+    border: 1px solid #d1cfcf;
+    width: 142px;
+
+}
+
+#testimonialContainer .row {
+    margin-bottom: 1em;
+}
+
+hr {
+    border: 0;
+    float: right;
+    width: 98.5%;
+    height: 4px;
+    background: #d1cfcf;
+    border-radius: 40%;
+}
+
+#testimonialContainer .authors {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0 !important;
+}
+
+.testimonialTitle {
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+#testimonialContainer .closingTestimonials {
+    border: none;
+    padding-bottom: 0;
+}
+
+.testimonialQuote {
+    padding-right: 0;
+}
+
+#authorContainer {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 36px;
+}
+
+#authorContainer img {
+    height: 15em;
+}
+
+.authorTitle {
+
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+#authorContainer .moveLeft {
+    padding-left: 0;
+    padding-right: 5em;
+    text-align: left;
+}
+
+#authorContainer h3 {
+    margin-bottom: 1em;
+}
+
+#footerContainer {
+    background: #eee;
+    width: 100%;
+    max-width: 1140px;
+    line-height: 3em !important;
+}
+
+#footerContainer p {
+    top: 0.4em;
+    position: relative;
+}
+
+.leftFooter {
+    padding-left: 36px;
+}
+
+.rightFooter {
+    float: right;
+    padding-right: 36px;
+    font-size: 175%;
+}
+
+.rightFooter i {
+    color: black;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+/*
+responsive SMARTFON
+*/
+
+@media (min-width: 1px) and (max-width: 480px) {
+
+    .author {
+        position: relative;
+    }
+
+    .logo {
+        left: 12px;
+    }
+
+    .no-wrap {
+        white-space: normal;
+    }
+
+    .jumbotronTitle {
+        left: 12px;
+        font-size: 150%;
+        margin-top: 0;
+        max-width: 300px;
+    }
+
+    .jumbotronContent {
+        left: 18px;
+        max-width: 300px;
+    }
+
+    #bookContent h3 {
+        font-size: 140%;
+        margin-top: 10px;
+    }
+
+    #bookContent {
+        left: 2px;
+    }
+
+    .book img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 155px !important;
+    }
+
+    .signUPbuttonText {
+        padding-top: 4px !important;
+        margin-top: 0;
+        float: left;
+        color: white;
+        font-size: 155%;
+        padding-left: 7px !important;
+    }
+
+    .wrapAsterisk:after {
+        font-family: 'FontAwesome';
+        position: absolute;
+        left: 89%;
+        content: '\f069';
+        color: #333;
+        margin-top: 4px;
+    }
+
+#smallAsterisk {
+    font-size:50%;
+    position: relative;
+    top:-2px;
+}
+
+    #testimonialContainer h2 {
+        font-size: 140%;
+    }
+
+    hr {
+        float: none;
+        width: 91%;
+    }
+
+    #testimonialContainer {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    #testimonialContainer p {
+        margin-right: 1em;
+    }
+
+    .authorTitle {
+        padding-left: 8px !important;
+
+    }
+
+    #authorContainer p {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    #mce-MMERGE3, .signUPbutton {
+        max-width: 204px;
+    }
+
+    .leftFooter {
+        padding-left: 30px;
+    }
+
+    .rightFooter {
+        padding-right: 30px;
+    }
+
+    #mce-EMAIL, #mce-LNAME, #mce-FNAME {
+        float: right;
+        border: 2px solid black;
+        width: 115px !important;
+    }
+}
+
+/*
+
+Responsive max 640px width
+
+*/
+
+@media (min-width: 481px) and (max-width: 640px) {
+
+    hr {
+        float: none;
+        width: 92%;
+    }
+
+    .authorTitle {
+        padding-left: 24px;
+    }
+
+    #authorContainer p {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+    #testimonialContainer p {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    .jumbotronTitle {
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    #mce-MMERGE3, .signUPbutton {
+        max-width: 253px;
+    }
+
+    #mce-EMAIL, #mce-LNAME, #mce-FNAME {
+        float: right;
+        border: 2px solid black;
+        width: 150px !important;
+    }
+}
+
+/*
+
+Responsive max 755px width
+
+*/
+
+@media (min-width: 641px) and (max-width: 767px) {
+
+    body {
+        font-size: 13px;
+    }
+
+    h2 .jumbotronTitle {
+        margin-top: 5px;
+    }
+
+    .testimonialQuote {
+        padding-left: 0;
+    }
+
+    #testimonialContainer p {
+        margin-left: 1em;
+    }
+
+    .book img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 225px;
+    }
+
+    .jumbotronTitle {
+        margin-top: 1%;
+    }
+
+    .authorTitle {
+        padding-left: 23px;
+    }
+
+    #authorContainer p {
+        padding-left: 23px !important;
+        padding-right: 23px !important;
+    }
+
+    #mce-MMERGE3, .signUPbutton {
+        max-width: 276px;
+    }
+
+    #authorContainer img {
+
+        height: 15em;
+        margin-top: 0.5em;
+    }
+
+}
+
+/*
+
+Responsive 992px width
+
+*/
+
+@media (max-width: 991px) {
+
+    p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.45em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .navbar {
+        margin: 0;
+        position: relative;
+    }
+
+    .logo {
+        max-height: 2em;
+        position: absolute;
+        left: 30px;
+
+    }
+
+    .jumbotron {
+    / / max-width : 800 px;
+    }
+
+    .jumbotronTitle {
+        min-width: 350px;
+        max-width: 800px;
+        padding-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    p.jumbotronContent {
+        font-size: 1em;
+        min-width: 350px;
+        max-width: 800px;
+    }
+
+    .row .book {
+        padding: 0.2em 0.5em 2.5em 0.2em;
+    }
+
+    .signUPbuttonText {
+        padding-top: 7px;
+        margin-top: 0;
+        float: left;
+        color: white;
+        font-size: 155%;
+        padding-left: 15px;
+    }
+
+    .book img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 255px;
+    }
+
+    .row .signUp {
+        margin: auto;
+        display: block;
+    }
+
+    #testimonialContainer img {
+        width: 142px;
+        height: 142px;
+        margin: 0.2em auto 1em auto;
+        display: block;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    #authorContainer {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .authorTitle {
+        padding-left: 22px;
+
+    }
+
+    #authorContainer p {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    #authorContainer .moveLeft {
+        padding: 0;
+    }
+
+    #authorContainer .author {
+        margin: auto;
+        display: block;
+    }
+
+    .leftFooter {
+        text-align: left;
+    }
+
+    #testimonialContainer h2 {
+        text-align: left;
+        font-size: 1.45em;
+    }
+
+    #authorPicture {
+        text-align: center;
+    }
+
+    .author {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    #authorContainer img {
+
+        height: 15em;
+        margin-top: 2.5em;
+    }
+}
+
+/*
+
+Repsonsive large
+
+*/
+
+@media (max-width: 1140px) {
+    .logo {
+        position: absolute !important;
+        top: 8px !important;
+        left: 28px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        position: relative;
+        top: -7px;
+        left: -52px;
+    }
+
+}
+
+@media (min-width: 1240px) {
+
+    .jumbotron {
+        background-size: 100% 100%;
+        height: 241px !important;
+        width: 1140px;
+        padding: 0;
+
+    }
+}
+
+
