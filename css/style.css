@@ -27,7 +27,7 @@ html, body {
     background-image: url("../assets/LandingPageBanner.png");
     background-size: 100% 100%;
     margin: auto;
-    max-height: 235px;
+    max-height: 230px;
     max-width: 1140px;
     position: relative;
     padding: 9% 0 12.2% 0;
@@ -80,7 +80,7 @@ html, body {
 
 .bookContainer .signUp {
     position: relative;
-    top: -25px;
+    top: -100px;
     background: white;
     border: 1px solid;
     max-width: 24em;
@@ -101,7 +101,7 @@ html, body {
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME, #mce-MMERGE3 {
     float: right;
-    border: 2px solid black;
+    border: 1px solid #333;
 }
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME {
