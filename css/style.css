@@ -1,6 +1,7 @@
 
 html, body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #383838;
 
 }
 
@@ -13,6 +14,7 @@ a:focus {
   color: #ec5300;
   text-decoration: underline;
 }
+
 
 .container {
     padding: 0;
@@ -41,6 +43,14 @@ a:focus {
     max-width: 1140px;
     position: relative;
     padding: 9% 0 12.2% 0;
+    border: 1px solid #cccaca;
+
+}
+
+
+.jumbotron h2 {
+	font-weight: bold;
+/*	color: #ed5402;*/
 }
 
 .bannerContainer {
@@ -92,7 +102,8 @@ a:focus {
     position: relative;
     top: -20px;
     background: white;
-    border: 1px solid #998a8a;
+/*    border: 1px solid #998a8a;*/
+    border: 1px solid #cccaca;
     max-width: 23.725em;
     max-height: 27em;
 }
@@ -111,7 +122,8 @@ a:focus {
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME, #mce-MMERGE3 {
     float: right;
-    border: 1px solid #998a8a;
+/*    border: 1px solid #998a8a;*/
+    border: 1px solid #cccaca;
 }
 
 #mce-EMAIL, #mce-LNAME, #mce-FNAME {
@@ -143,7 +155,7 @@ a:focus {
     position: absolute;
     left: 91.5%;
     content: '\f069';
-    color: #998a8a;
+    /*color: #cccaca;*/
     font-size: 50%;
     margin-top: 4px;
 }
@@ -184,6 +196,7 @@ a:focus {
     padding-right: 36px;
     margin: auto; 
     background: #f3efef;
+    border: 1px solid #cccaca;
 }
 
 #testimonialContainer .row {
@@ -212,7 +225,7 @@ a:focus {
 }
 
 #testimonialContainer img {
-    border: 1px solid #d1cfcf;
+    border: 1px solid #cccaca;
     width: 142px;
 
 }
@@ -226,7 +239,7 @@ hr {
     float: right;
     width: 98.5%;
     height: 2px;
-    background: #d1cfcf;
+    background: #cccaca;
 }
 
 #testimonialContainer .authors {
@@ -277,6 +290,8 @@ hr {
 
 #footerContainer {
     background: #f3efef;
+    /*background: #ed5402;*/
+    /*background: #686868;*/
     width: 100%;
     max-width: 1140px;
     line-height: 3em !important;
@@ -289,6 +304,7 @@ hr {
 
 .leftFooter {
     padding-left: 36px;
+    /*color: white;*/
 }
 
 .rightFooter {
@@ -298,7 +314,8 @@ hr {
 }
 
 .rightFooter i {
-    color: #333333;
+    color: #383838;
+    /*color: white;*/
 }
 
 .no-wrap {
@@ -422,7 +439,7 @@ responsive SMARTFON
 
     #mce-EMAIL, #mce-LNAME, #mce-FNAME {
         float: right;
-        border: 1px solid #998a8a;
+        border: 1px solid #cccaca;
         width: 115px !important;
     }
 }
@@ -470,7 +487,7 @@ Responsive max 640px width
 
     #mce-EMAIL, #mce-LNAME, #mce-FNAME {
         float: right;
-        border: 1px solid #998a8a;
+        border: 1px solid #cccaca;
         width: 150px !important;
     }
 }
