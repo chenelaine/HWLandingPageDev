@@ -4,6 +4,16 @@ html, body {
 
 }
 
+a {
+  color: #ec5300;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #ec5300;
+  text-decoration: underline;
+}
+
 .container {
     padding: 0;
 }
@@ -83,7 +93,7 @@ html, body {
     top: -20px;
     background: white;
     border: 1px solid #998a8a;
-    max-width: 23em;
+    max-width: 23.725em;
     max-height: 27em;
 }
 
@@ -221,7 +231,7 @@ hr {
 
 #testimonialContainer .authors {
     font-weight: bold;
-    color: black;
+    /*color: black;*/
     margin-bottom: 0 !important;
 }
 
@@ -288,7 +298,7 @@ hr {
 }
 
 .rightFooter i {
-    color: black;
+    color: #333333;
 }
 
 .no-wrap {
@@ -356,7 +366,7 @@ responsive SMARTFON
         position: absolute;
         left: 89%;
         content: '\f069';
-        color: #333;
+        color: #333333;
         margin-top: 4px;
     }
 
