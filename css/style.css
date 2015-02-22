@@ -80,10 +80,10 @@ html, body {
 
 .bookContainer .signUp {
     position: relative;
-    top: -100px;
+    top: -20px;
     background: white;
     border: 1px solid #998a8a;
-    max-width: 24em;
+    max-width: 23em;
     max-height: 27em;
 }
 
@@ -412,7 +412,7 @@ responsive SMARTFON
 
     #mce-EMAIL, #mce-LNAME, #mce-FNAME {
         float: right;
-        border: 2px solid black;
+        border: 1px solid #998a8a;
         width: 115px !important;
     }
 }
@@ -460,7 +460,7 @@ Responsive max 640px width
 
     #mce-EMAIL, #mce-LNAME, #mce-FNAME {
         float: right;
-        border: 2px solid black;
+        border: 1px solid #998a8a;
         width: 150px !important;
     }
 }
