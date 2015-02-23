@@ -114,6 +114,7 @@ a:focus {
 
 .book img {
     width: 75%;
+    padding-bottom: 2em;
 }
 
 .bookContainer .signUp h3 {
