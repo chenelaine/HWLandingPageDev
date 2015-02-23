@@ -133,7 +133,7 @@ a:focus {
 
 .inputDescription {
     padding-top: 4px;
-    padding-bottom: 4px
+   /* padding-bottom: 4px;*/
 
 }
 
@@ -146,8 +146,9 @@ a:focus {
     width: 300px;
     position: relative;
     float: none;
-    margin-bottom: 0.5em;
+/*    margin-bottom: 0.5em;
     margin-top: 0.5em;
+    */
 }
 
 .wrapAsterisk:after {
